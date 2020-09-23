@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Cyg.Applicatio.Survey.Dto</id>
+    <version>1.0.12</version>
+    <authors>长园深瑞</authors>
+    <owners>长园深瑞</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>勘测端交换模型</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Cyg" version="1.0.117" exclude="Build,Analyzers" />
+        <dependency id="Cyg.Applicatio.Dto" version="1.0.151" exclude="Build,Analyzers" />
+        <dependency id="Cyg.Resource" version="1.0.54" exclude="Build,Analyzers" />
+        <dependency id="Cyg.Resource.Dto" version="1.0.70" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\changYuanShenRui\project\Cyg.Survey.Solution\src\04-Models\Cyg.Applicatio.Survey.Dto\bin\Release\netstandard2.0\Cyg.Applicatio.Survey.Dto.dll" target="lib\netstandard2.0\Cyg.Applicatio.Survey.Dto.dll" />
+    <file src="C:\changYuanShenRui\project\Cyg.Survey.Solution\src\04-Models\Cyg.Applicatio.Survey.Dto\bin\Release\netstandard2.0\Cyg.Applicatio.Survey.Dto.xml" target="lib\netstandard2.0\Cyg.Applicatio.Survey.Dto.xml" />
+  </files>
+</package>

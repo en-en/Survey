@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Cyg.Application.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Cyg.Application.Api.Controllers.HealthController.Heartbeat(System.String)">
+            <summary>
+                心跳检查
+            </summary>
+            <param name="ip"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Cyg.Application.Api.Controllers.NewsController">
+            <summary>
+            新闻资讯
+            </summary>
+        </member>
+        <member name="M:Cyg.Application.Api.Controllers.NewsController.GetPageListAsync(Cyg.Applicatio.Survey.Dto.QueryNewsRequest)">
+            <summary>
+            分页获取资讯列表
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Cyg.Application.Api.Controllers.NewsController.GetNewsAsync(System.String)">
+            <summary>
+            获取资讯内容
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Cyg.Application.Api.Controllers.ProjectController">
+            <summary>
+            工程管理
+            </summary>
+        </member>
+        <member name="M:Cyg.Application.Api.Controllers.ProjectController.GetListAsync(Cyg.Applicatio.Survey.Dto.ProjectRequest)">
+            <summary>
+            获取工程列表
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Cyg.Application.Api.Controllers.ProjectController.GetDetailAsync(System.String)">
+            <summary>
+            获取工程明细
+            </summary>
+            <param name="projectId">工程编号</param>
+            <returns></returns>
+        </member>
+        <member name="M:Cyg.Application.Api.Controllers.ProjectController.ReportSurveyDataAsync(Cyg.Applicatio.Survey.Dto.ReportSurveyDataRequest)">
+            <summary>
+            上报勘测数据
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Cyg.Application.Api.Controllers.ProjectController.CompleteSurveyAsync(System.String)">
+            <summary>
+            完成勘察
+            </summary>
+            <param name="projectId">工程编号</param>
+            <returns></returns>
+        </member>
+        <member name="M:Cyg.Application.Api.Controllers.ProjectController.ReportDisclosureDataAsync(Cyg.Applicatio.Survey.Dto.ReportDisclosureDataRequest)">
+            <summary>
+            上传交底数据
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Cyg.Application.Api.Controllers.ProjectController.CompleteDisclosureAsync(Cyg.Applicatio.Survey.Dto.CompleteDisclosureRequest)">
+            <summary>
+            完成交底
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Cyg.Application.Api.Controllers.ProjectController.RepairData(System.Collections.Generic.List{System.String},System.Boolean)">
+            <summary>
+                修复数据
+            </summary>
+            <param name="projects"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Cyg.Application.Api.Controllers.ProjectController.ClearDesignData">
+            <summary>
+                修复数据
+            </summary>
+            <param name="projects"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Cyg.Application.Api.Controllers.ResourceController">
+            <summary>
+            资源库管理
+            </summary>
+        </member>
+        <member name="M:Cyg.Application.Api.Controllers.ResourceController.GetTowerTypeOptionsAsync(Cyg.Applicatio.Survey.Dto.ResourceOptionsRequest)">
+            <summary>
+            获取杆型和杆规格
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Cyg.Application.Api.Controllers.ResourceController.GetLineTypeOptionsAsync(Cyg.Applicatio.Survey.Dto.ResourceOptionsRequest)">
+            <summary>
+            获取线路型号
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Cyg.Application.Api.Controllers.ResourceController.GetCableWellTypeOptionsAsync(Cyg.Applicatio.Survey.Dto.BaseResourceRquest)">
+            <summary>
+            获取电缆井类型规格
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Cyg.Application.Api.Controllers.ResourceController.GetChannelTypeOptionsAsync(Cyg.Applicatio.Survey.Dto.BaseResourceRquest)">
+            <summary>
+            获取电缆通道类型规格
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Cyg.Application.Api.Controllers.ResourceController.GetCableEquipmentOptionsAsync(Cyg.Applicatio.Survey.Dto.BaseResourceRquest)">
+            <summary>
+            获取电气设备类型规格
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

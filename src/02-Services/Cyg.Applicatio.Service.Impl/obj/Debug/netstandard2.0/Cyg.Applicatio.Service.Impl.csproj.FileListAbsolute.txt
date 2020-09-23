@@ -1,0 +1,17 @@
+C:\changYuanShenRui\project\Cyg.Survey.Solution\src\02-Services\Cyg.Applicatio.Service.Impl\bin\Debug\netstandard2.0\Cyg.Applicatio.Service.Impl.deps.json
+C:\changYuanShenRui\project\Cyg.Survey.Solution\src\02-Services\Cyg.Applicatio.Service.Impl\bin\Debug\netstandard2.0\Cyg.Applicatio.Service.Impl.dll
+C:\changYuanShenRui\project\Cyg.Survey.Solution\src\02-Services\Cyg.Applicatio.Service.Impl\bin\Debug\netstandard2.0\Cyg.Applicatio.Service.Impl.pdb
+C:\changYuanShenRui\project\Cyg.Survey.Solution\src\02-Services\Cyg.Applicatio.Service.Impl\bin\Debug\netstandard2.0\Cyg.Applicatio.Repository.dll
+C:\changYuanShenRui\project\Cyg.Survey.Solution\src\02-Services\Cyg.Applicatio.Service.Impl\bin\Debug\netstandard2.0\Cyg.Applicatio.Service.dll
+C:\changYuanShenRui\project\Cyg.Survey.Solution\src\02-Services\Cyg.Applicatio.Service.Impl\bin\Debug\netstandard2.0\Cyg.Applicatio.Survey.Dto.dll
+C:\changYuanShenRui\project\Cyg.Survey.Solution\src\02-Services\Cyg.Applicatio.Service.Impl\bin\Debug\netstandard2.0\Cyg.Applicatio.Repository.pdb
+C:\changYuanShenRui\project\Cyg.Survey.Solution\src\02-Services\Cyg.Applicatio.Service.Impl\bin\Debug\netstandard2.0\Cyg.Applicatio.Service.pdb
+C:\changYuanShenRui\project\Cyg.Survey.Solution\src\02-Services\Cyg.Applicatio.Service.Impl\bin\Debug\netstandard2.0\Cyg.Applicatio.Survey.Dto.pdb
+C:\changYuanShenRui\project\Cyg.Survey.Solution\src\02-Services\Cyg.Applicatio.Service.Impl\bin\Debug\netstandard2.0\Cyg.Applicatio.Survey.Dto.xml
+C:\changYuanShenRui\project\Cyg.Survey.Solution\src\02-Services\Cyg.Applicatio.Service.Impl\obj\Debug\netstandard2.0\Cyg.Applicatio.Service.Impl.csprojAssemblyReference.cache
+C:\changYuanShenRui\project\Cyg.Survey.Solution\src\02-Services\Cyg.Applicatio.Service.Impl\obj\Debug\netstandard2.0\Cyg.Applicatio.Service.Impl.csproj.CoreCompileInputs.cache
+C:\changYuanShenRui\project\Cyg.Survey.Solution\src\02-Services\Cyg.Applicatio.Service.Impl\obj\Debug\netstandard2.0\Cyg.Applicatio.Service.Impl.AssemblyInfoInputs.cache
+C:\changYuanShenRui\project\Cyg.Survey.Solution\src\02-Services\Cyg.Applicatio.Service.Impl\obj\Debug\netstandard2.0\Cyg.Applicatio.Service.Impl.AssemblyInfo.cs
+C:\changYuanShenRui\project\Cyg.Survey.Solution\src\02-Services\Cyg.Applicatio.Service.Impl\obj\Debug\netstandard2.0\Cyg.Applicatio.Service.Impl.csproj.CopyComplete
+C:\changYuanShenRui\project\Cyg.Survey.Solution\src\02-Services\Cyg.Applicatio.Service.Impl\obj\Debug\netstandard2.0\Cyg.Applicatio.Service.Impl.dll
+C:\changYuanShenRui\project\Cyg.Survey.Solution\src\02-Services\Cyg.Applicatio.Service.Impl\obj\Debug\netstandard2.0\Cyg.Applicatio.Service.Impl.pdb

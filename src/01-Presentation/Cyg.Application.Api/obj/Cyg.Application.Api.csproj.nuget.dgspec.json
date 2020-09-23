@@ -1,0 +1,457 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\01-Presentation\\Cyg.Application.Api\\Cyg.Application.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\01-Presentation\\Cyg.Application.Api\\Cyg.Application.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\01-Presentation\\Cyg.Application.Api\\Cyg.Application.Api.csproj",
+        "projectName": "Cyg.Application.Api",
+        "projectPath": "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\01-Presentation\\Cyg.Application.Api\\Cyg.Application.Api.csproj",
+        "packagesPath": "C:\\Users\\Shinelon\\.nuget\\packages\\",
+        "outputPath": "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\01-Presentation\\Cyg.Application.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Shinelon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://10.6.1.36:8011/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\02-Services\\Cyg.Applicatio.Service.Impl\\Cyg.Applicatio.Service.Impl.csproj": {
+                "projectPath": "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\02-Services\\Cyg.Applicatio.Service.Impl\\Cyg.Applicatio.Service.Impl.csproj"
+              },
+              "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\03-Repositories\\Cyg.Applicatio.Repository.Impl\\Cyg.Applicatio.Repository.Impl.csproj": {
+                "projectPath": "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\03-Repositories\\Cyg.Applicatio.Repository.Impl\\Cyg.Applicatio.Repository.Impl.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Cyg.Extensions.WebApi": {
+              "target": "Package",
+              "version": "[1.0.108, )"
+            },
+            "Cyg.LogX": {
+              "target": "Package",
+              "version": "[1.0.15, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Nuget.Tools.V2": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\02-Services\\Cyg.Applicatio.Service.Impl\\Cyg.Applicatio.Service.Impl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\02-Services\\Cyg.Applicatio.Service.Impl\\Cyg.Applicatio.Service.Impl.csproj",
+        "projectName": "Cyg.Applicatio.Service.Impl",
+        "projectPath": "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\02-Services\\Cyg.Applicatio.Service.Impl\\Cyg.Applicatio.Service.Impl.csproj",
+        "packagesPath": "C:\\Users\\Shinelon\\.nuget\\packages\\",
+        "outputPath": "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\02-Services\\Cyg.Applicatio.Service.Impl\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Shinelon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://10.6.1.36:8011/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\02-Services\\Cyg.Applicatio.Service\\Cyg.Applicatio.Service.csproj": {
+                "projectPath": "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\02-Services\\Cyg.Applicatio.Service\\Cyg.Applicatio.Service.csproj"
+              },
+              "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\03-Repositories\\Cyg.Applicatio.Repository\\Cyg.Applicatio.Repository.csproj": {
+                "projectPath": "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\03-Repositories\\Cyg.Applicatio.Repository\\Cyg.Applicatio.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Cyg": {
+              "target": "Package",
+              "version": "[1.0.117, )"
+            },
+            "Cyg.Extensions.AutoMapper": {
+              "target": "Package",
+              "version": "[1.0.18, )"
+            },
+            "Cyg.Extensions.Reflection": {
+              "target": "Package",
+              "version": "[1.0.19, )"
+            },
+            "Cyg.Extensions.Service": {
+              "target": "Package",
+              "version": "[1.0.101, )"
+            },
+            "Cyg.Resource": {
+              "target": "Package",
+              "version": "[1.0.54, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "WebApiClient.JIT": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\02-Services\\Cyg.Applicatio.Service\\Cyg.Applicatio.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\02-Services\\Cyg.Applicatio.Service\\Cyg.Applicatio.Service.csproj",
+        "projectName": "Cyg.Applicatio.Service",
+        "projectPath": "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\02-Services\\Cyg.Applicatio.Service\\Cyg.Applicatio.Service.csproj",
+        "packagesPath": "C:\\Users\\Shinelon\\.nuget\\packages\\",
+        "outputPath": "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\02-Services\\Cyg.Applicatio.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Shinelon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://10.6.1.36:8011/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\04-Models\\Cyg.Applicatio.Survey.Dto\\Cyg.Applicatio.Survey.Dto.csproj": {
+                "projectPath": "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\04-Models\\Cyg.Applicatio.Survey.Dto\\Cyg.Applicatio.Survey.Dto.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Cyg.Applicatio.Entity": {
+              "target": "Package",
+              "version": "[1.0.226, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\03-Repositories\\Cyg.Applicatio.Repository.Impl\\Cyg.Applicatio.Repository.Impl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\03-Repositories\\Cyg.Applicatio.Repository.Impl\\Cyg.Applicatio.Repository.Impl.csproj",
+        "projectName": "Cyg.Applicatio.Repository.Impl",
+        "projectPath": "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\03-Repositories\\Cyg.Applicatio.Repository.Impl\\Cyg.Applicatio.Repository.Impl.csproj",
+        "packagesPath": "C:\\Users\\Shinelon\\.nuget\\packages\\",
+        "outputPath": "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\03-Repositories\\Cyg.Applicatio.Repository.Impl\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Shinelon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://10.6.1.36:8011/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\03-Repositories\\Cyg.Applicatio.Repository\\Cyg.Applicatio.Repository.csproj": {
+                "projectPath": "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\03-Repositories\\Cyg.Applicatio.Repository\\Cyg.Applicatio.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Cyg.Extensions.Redis": {
+              "target": "Package",
+              "version": "[1.0.17, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[4.1.3.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\03-Repositories\\Cyg.Applicatio.Repository\\Cyg.Applicatio.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\03-Repositories\\Cyg.Applicatio.Repository\\Cyg.Applicatio.Repository.csproj",
+        "projectName": "Cyg.Applicatio.Repository",
+        "projectPath": "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\03-Repositories\\Cyg.Applicatio.Repository\\Cyg.Applicatio.Repository.csproj",
+        "packagesPath": "C:\\Users\\Shinelon\\.nuget\\packages\\",
+        "outputPath": "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\03-Repositories\\Cyg.Applicatio.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Shinelon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://10.6.1.36:8011/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\04-Models\\Cyg.Applicatio.Survey.Dto\\Cyg.Applicatio.Survey.Dto.csproj": {
+                "projectPath": "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\04-Models\\Cyg.Applicatio.Survey.Dto\\Cyg.Applicatio.Survey.Dto.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Cyg": {
+              "target": "Package",
+              "version": "[1.0.117, )"
+            },
+            "Cyg.Applicatio.Entity": {
+              "target": "Package",
+              "version": "[1.0.226, )"
+            },
+            "Cyg.Extensions": {
+              "target": "Package",
+              "version": "[1.0.47, )"
+            },
+            "Cyg.Extensions.Cap": {
+              "target": "Package",
+              "version": "[1.0.13, )"
+            },
+            "Cyg.Extensions.Service": {
+              "target": "Package",
+              "version": "[1.0.101, )"
+            },
+            "Microsoft.AspNetCore.WebSockets": {
+              "target": "Package",
+              "version": "[2.2.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\04-Models\\Cyg.Applicatio.Survey.Dto\\Cyg.Applicatio.Survey.Dto.csproj": {
+      "version": "1.0.12",
+      "restore": {
+        "projectUniqueName": "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\04-Models\\Cyg.Applicatio.Survey.Dto\\Cyg.Applicatio.Survey.Dto.csproj",
+        "projectName": "Cyg.Applicatio.Survey.Dto",
+        "projectPath": "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\04-Models\\Cyg.Applicatio.Survey.Dto\\Cyg.Applicatio.Survey.Dto.csproj",
+        "packagesPath": "C:\\Users\\Shinelon\\.nuget\\packages\\",
+        "outputPath": "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\04-Models\\Cyg.Applicatio.Survey.Dto\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Shinelon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://10.6.1.36:8011/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Cyg": {
+              "target": "Package",
+              "version": "[1.0.117, )"
+            },
+            "Cyg.Applicatio.Dto": {
+              "target": "Package",
+              "version": "[1.0.151, )"
+            },
+            "Cyg.Resource": {
+              "target": "Package",
+              "version": "[1.0.54, )"
+            },
+            "Cyg.Resource.Dto": {
+              "target": "Package",
+              "version": "[1.0.70, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,2761 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Cyg.Applicatio.Survey.Dto</name>
+    </assembly>
+    <members>
+        <member name="T:Cyg.Applicatio.Survey.Dto.GisDisclosureTrackRequest">
+            <summary>
+            Gis勘察轨迹
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisDisclosureTrackRequest.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisDisclosureTrackRequest.RecordDate">
+            <summary>
+            记录时间
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisDisclosureTrackRequest.Recorder">
+            <summary>
+            记录人
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisDisclosureTrackRequest.Company">
+            <summary>
+            公司
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisDisclosureTrackRequest.Type">
+            <summary>
+            轨迹类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisDisclosureTrackRequest.ProjectId">
+            <summary>
+            项目Id
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisDisclosureTrackRequest.Geom">
+            <summary>
+            几何列，类型为点
+            </summary>
+        </member>
+        <member name="T:Cyg.Applicatio.Survey.Dto.Request.Gis.GisPullLineRequest">
+            <summary>
+            设计拉线数据
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.Request.Gis.GisPullLineRequest.Id">
+            <summary>
+                 主键
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.Request.Gis.GisPullLineRequest.Main_Id">
+            <summary>
+                杆塔id
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.Request.Gis.GisPullLineRequest.Azimuth">
+            <summary>
+                方位角
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.Request.Gis.GisPullLineRequest.Mode">
+            <summary>
+                拉线型号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.Request.Gis.GisPullLineRequest.Mode_Id">
+            <summary>
+                拉线型号id
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.Request.Gis.GisPullLineRequest.State">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.Request.Gis.GisPullLineRequest.ProjectId">
+            <summary>
+                项目id
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.Request.Gis.GisPullLineRequest.Geom">
+            <summary>
+            几何列，类型为点
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.Request.Gis.GisPullLineRequest.Remark">
+            <summary>
+                备注
+            </summary>
+        </member>
+        <member name="T:Cyg.Applicatio.Survey.Dto.GisSurveyCableChannelRequest">
+            <summary>
+            电缆通道
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableChannelRequest.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableChannelRequest.Code">
+            <summary>
+            电缆通道编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableChannelRequest.StartId">
+            <summary>
+            始节点
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableChannelRequest.EndId">
+            <summary>
+            终节点
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableChannelRequest.LayMode">
+            <summary>
+            敷设方式
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableChannelRequest.State">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableChannelRequest.DuctId">
+            <summary>
+            电缆管材质编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableChannelRequest.DuctSpec">
+            <summary>
+            电缆管材质型号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableChannelRequest.Mode">
+            <summary>
+            电缆通道型号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableChannelRequest.ModeId">
+            <summary>
+            电缆通道类型ID
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableChannelRequest.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableChannelRequest.StartNodeType">
+            <summary>
+            始节点类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableChannelRequest.EndNodeType">
+            <summary>
+            终点节点类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableChannelRequest.Surveyor">
+            <summary>
+            勘测人
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableChannelRequest.SurveyTime">
+            <summary>
+            勘测日期
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableChannelRequest.Arrangement">
+            <summary>
+            排列方式
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableChannelRequest.SymbolId">
+            <summary>
+            符号Id
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableChannelRequest.Length">
+            <summary>
+            长度
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableChannelRequest.RsvWidth">
+            <summary>
+            预留宽度(mm)
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableChannelRequest.ProjectId">
+            <summary>
+            项目编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableChannelRequest.Voltage">
+            <summary>
+            电压
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableChannelRequest.IsDisclosure">
+            <summary>
+            是否交底
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableChannelRequest.Geom">
+            <summary>
+            几何列，类型未线
+            </summary>
+        </member>
+        <member name="T:Cyg.Applicatio.Survey.Dto.GisSurveyCableEquipmentRequest">
+            <summary>
+            电缆杆上设备
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableEquipmentRequest.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableEquipmentRequest.Name">
+            <summary>
+            设备名称
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableEquipmentRequest.Type">
+            <summary>
+            设备类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableEquipmentRequest.ParentId">
+            <summary>
+            上一节点
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableEquipmentRequest.EquipModel">
+            <summary>
+            型号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableEquipmentRequest.EquipModelId">
+            <summary>
+            型号ID
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableEquipmentRequest.Capacity">
+            <summary>
+            容量
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableEquipmentRequest.Length">
+            <summary>
+            长
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableEquipmentRequest.Width">
+            <summary>
+            宽
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableEquipmentRequest.Height">
+            <summary>
+            高
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableEquipmentRequest.State">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableEquipmentRequest.SymbolId">
+            <summary>
+            符号Id
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableEquipmentRequest.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableEquipmentRequest.PreNodeType">
+            <summary>
+            上一节点类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableEquipmentRequest.Code">
+            <summary>
+            设备编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableEquipmentRequest.ProjectId">
+            <summary>
+            项目编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableEquipmentRequest.Surveyor">
+            <summary>
+            勘测人
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableEquipmentRequest.SurveyTime">
+            <summary>
+            勘测日期
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableEquipmentRequest.Azimuth">
+            <summary>
+            方位角
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableEquipmentRequest.LogicCode">
+            <summary>
+            逻辑编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableEquipmentRequest.Geom">
+            <summary>
+            几何列,类型为点
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableRequest.Id">
+            <summary>
+            主键 Id
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableRequest.ParentId">
+            <summary>
+            上一节点
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableRequest.Code">
+            <summary>
+            电缆井编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableRequest.Type">
+            <summary>
+            电缆井类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableRequest.State">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableRequest.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableRequest.Surveyor">
+            <summary>
+            勘测人
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableRequest.SurveyTime">
+            <summary>
+            勘测日期
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableRequest.LayMode">
+            <summary>
+            敷设方式：无、排管、直埋、电缆沟、隧道
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableRequest.Lat">
+            <summary>
+            纬度
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableRequest.Lon">
+            <summary>
+            经度
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableRequest.ProjectId">
+            <summary>
+            项目编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableRequest.PreNodeType">
+            <summary>
+            上一节点类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableRequest.ElectrifiedWork">
+            <summary>
+            带电作业
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableRequest.LogicCode">
+            <summary>
+            逻辑编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableRequest.Mode">
+            <summary>
+            电缆井方案
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableRequest.ModeId">
+            <summary>
+            电缆井方案ID
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableRequest.SymbolId">
+            <summary>
+            符号Id
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableRequest.Azimuth">
+            <summary>
+            方位角
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyCableRequest.Geom">
+            <summary>
+            几何列,类型为点
+            </summary>
+        </member>
+        <member name="T:Cyg.Applicatio.Survey.Dto.GisSurveyLineRequest">
+            <summary>
+            线路
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyLineRequest.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyLineRequest.Name">
+            <summary>
+            线路名称
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyLineRequest.GroupId">
+            <summary>
+            线路组编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyLineRequest.StartId">
+            <summary>
+            始节点
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyLineRequest.EndId">
+            <summary>
+            终节点
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyLineRequest.Type">
+            <summary>
+            线路类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyLineRequest.Mode">
+            <summary>
+            线路型号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyLineRequest.Length">
+            <summary>
+            线路长度
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyLineRequest.KvLevel">
+            <summary>
+            电压等级
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyLineRequest.LoopSerial">
+            <summary>
+            回路序列号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyLineRequest.State">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyLineRequest.IsCable">
+            <summary>
+            是否电缆
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyLineRequest.ProjectId">
+            <summary>
+            项目编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyLineRequest.Surveyor">
+            <summary>
+            勘测人
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyLineRequest.SurveyTime">
+            <summary>
+            勘测日期
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyLineRequest.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyLineRequest.StartNodeType">
+            <summary>
+            始节点类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyLineRequest.EndNodeType">
+            <summary>
+            终节点类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyLineRequest.LoopName">
+            <summary>
+            回路名称
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyLineRequest.ModeId">
+            <summary>
+            型号ID
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyLineRequest.CableNumber">
+            <summary>
+            电缆回路数
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyLineRequest.Azimuth">
+            <summary>
+            方位角
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyLineRequest.LoopSeq">
+            <summary>
+            逻辑顺序
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyLineRequest.LoopLevel">
+            <summary>
+            回路层级
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyLineRequest.ParentLoopName">
+            <summary>
+            父级回路名称
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyLineRequest.TurningPoints">
+            <summary>
+            折点
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyLineRequest.SymbolId">
+            <summary>
+            符号Id
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyLineRequest.Geom">
+            <summary>
+            几何列，类型为线
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyLineRequest.Index">
+            <summary>
+            回路标识
+            </summary>
+        </member>
+        <member name="T:Cyg.Applicatio.Survey.Dto.GisSurveyMarkRequest">
+            <summary>
+            地物
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyMarkRequest.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyMarkRequest.Name">
+            <summary>
+            地物名称
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyMarkRequest.Type">
+            <summary>
+            类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyMarkRequest.Width">
+            <summary>
+            宽
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyMarkRequest.Height">
+            <summary>
+            高
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyMarkRequest.Azimuth">
+            <summary>
+            方位角
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyMarkRequest.Lat">
+            <summary>
+            纬度
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyMarkRequest.Lon">
+            <summary>
+            经度
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyMarkRequest.RoadLevel">
+            <summary>
+            道路等级
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyMarkRequest.LineKvLevel">
+            <summary>s
+            电力线电压等级
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyMarkRequest.Floors">
+            <summary>
+            楼层数（m）
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyMarkRequest.Provider">
+            <summary>
+            运营商
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyMarkRequest.ProjectId">
+            <summary>
+            项目编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyMarkRequest.State">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyMarkRequest.Surveyor">
+            <summary>
+            勘测人
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyMarkRequest.SurveyTime">
+            <summary>
+            勘测日期
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyMarkRequest.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyMarkRequest.LiveCross">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyMarkRequest.SymbolId">
+            <summary>
+            符号Id
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyMarkRequest.Geom">
+            <summary>
+            几何列，类型为点
+            </summary>
+        </member>
+        <member name="T:Cyg.Applicatio.Survey.Dto.GisSurveyOverheadDeviceRequest">
+            <summary>
+            架空杆上设备
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyOverheadDeviceRequest.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyOverheadDeviceRequest.Name">
+            <summary>
+            设备名称
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyOverheadDeviceRequest.Type">
+            <summary>
+            类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyOverheadDeviceRequest.MainId">
+            <summary>
+            所属杆塔ID（主杆）
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyOverheadDeviceRequest.SubId">
+            <summary>
+            所属杆塔ID（副杆）
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyOverheadDeviceRequest.Capacity">
+            <summary>
+            容量
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyOverheadDeviceRequest.FixMode">
+            <summary>
+            安装方法
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyOverheadDeviceRequest.State">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyOverheadDeviceRequest.Lat">
+            <summary>
+            纬度
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyOverheadDeviceRequest.Lon">
+            <summary>
+            经度
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyOverheadDeviceRequest.Surveyor">
+            <summary>
+            勘测人
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyOverheadDeviceRequest.SurveyTime">
+            <summary>
+            勘测日期
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyOverheadDeviceRequest.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyOverheadDeviceRequest.Mode">
+            <summary>
+            型号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyOverheadDeviceRequest.ModeId">
+            <summary>
+            型号ID
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyOverheadDeviceRequest.Azimuth">
+            <summary>
+            方位角
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyOverheadDeviceRequest.ProjectId">
+            <summary>
+            项目编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyOverheadDeviceRequest.SymbolId">
+            <summary>
+            符号Id
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyOverheadDeviceRequest.Geom">
+            <summary>
+            集合列,类型为点
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyTowerRequest.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyTowerRequest.ParentId">
+            <summary>
+            上一节点
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyTowerRequest.Code">
+            <summary>
+            编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyTowerRequest.LogicCode">
+            <summary>
+            杆塔逻辑编号，即回路逻辑序号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyTowerRequest.Type">
+            <summary>
+            杆型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyTowerRequest.Height">
+            <summary>
+            杆高
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyTowerRequest.Rod">
+            <summary>
+            杆梢径
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyTowerRequest.Material">
+            <summary>
+            杆材质
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyTowerRequest.Segment">
+            <summary>
+            分段方式
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyTowerRequest.Lat">
+            <summary>
+            纬度
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyTowerRequest.Lon">
+            <summary>
+            经度
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyTowerRequest.State">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyTowerRequest.Sort">
+            <summary>
+            排列方式
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyTowerRequest.KvLevel">
+            <summary>
+            电压等级
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyTowerRequest.SurveyTime">
+            <summary>
+            勘测时间
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyTowerRequest.Azimuth">
+            <summary>
+            方位角
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyTowerRequest.Mode">
+            <summary>
+            杆型方案
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyTowerRequest.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyTowerRequest.LoopName">
+            <summary>
+            杆塔所属的回路名称
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyTowerRequest.LoopLevel">
+            <summary>
+            杆塔所属的回路层级
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyTowerRequest.IsTension">
+            <summary>
+            是否耐张杆
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyTowerRequest.Depth">
+            <summary>
+            埋深
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyTowerRequest.ModeId">
+            <summary>
+            杆型方案编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyTowerRequest.PoleTypeCode">
+            <summary>
+            杆型编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyTowerRequest.PreNodeType">
+            <summary>
+            上一节点类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyTowerRequest.Surveyor">
+            <summary>
+            勘测人员
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyTowerRequest.SymbolId">
+            <summary>
+            符号Id
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyTowerRequest.ProjectId">
+            <summary>
+            项目编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyTowerRequest.ElectrifiedWork">
+            <summary>
+            带电作业
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyTowerRequest.LoopNum">
+            <summary>
+            回路数量
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyTowerRequest.LinkNum">
+            <summary>
+            联动回路数
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyTowerRequest.Geom">
+            <summary>
+            几何列，类型为点
+            </summary>
+        </member>
+        <member name="T:Cyg.Applicatio.Survey.Dto.GisSurveyTrackRequest">
+            <summary>
+            Gis勘察轨迹
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyTrackRequest.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyTrackRequest.RecordDate">
+            <summary>
+            记录时间
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyTrackRequest.Recorder">
+            <summary>
+            记录人
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyTrackRequest.Company">
+            <summary>
+            公司
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyTrackRequest.Type">
+            <summary>
+            轨迹类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyTrackRequest.ProjectId">
+            <summary>
+            项目Id
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.GisSurveyTrackRequest.Geom">
+            <summary>
+            几何列，类型为点
+            </summary>
+        </member>
+        <member name="T:Cyg.Applicatio.Survey.Dto.QueryNewsRequest">
+            <summary>
+            资讯查询请求
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CollectionDataRequest.Towers">
+            <summary>
+            杆塔
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CollectionDataRequest.Cables">
+            <summary>
+            电缆井
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CollectionDataRequest.CableChannels">
+            <summary>
+            电缆通道
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CollectionDataRequest.CableEquipments">
+            <summary>
+            电缆杆上设备
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CollectionDataRequest.OverheadEquipments">
+            <summary>
+            架空杆上设备
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CollectionDataRequest.Lines">
+            <summary>
+            线路
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CollectionDataRequest.Marks">
+            <summary>
+            地物
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CollectionDataRequest.TrackRecords">
+            <summary>
+            轨迹记录集合
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CollectionDataRequest.Medias">
+            <summary>
+            勘察多媒体文件
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CompleteDisclosureRequest.ProjectId">
+            <summary>
+            工程编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ReportDisclosureDataRequest.ProjectId">
+            <summary>
+            工程编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ReportDisclosureDataRequest.Disclosures">
+            <summary>
+            交底数据
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ReportDisclosureDataRequest.TrackRecords">
+            <summary>
+            轨迹记录集合
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ReportDisclosure.ItemId">
+            <summary>
+            杆塔/电缆井/电气设备 编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ReportDisclosure.ItemType">
+            <summary>
+            交底类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ReportDisclosure.Status">
+            <summary>
+            交底状态
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ReportDisclosure.DisclosureDate">
+            <summary>
+            交底日期
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ReportDisclosure.Items">
+            <summary>
+            交底明细
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ReportDisclosureItem.Category">
+            <summary>
+            类别
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ReportDisclosureItem.Notes">
+            <summary>
+            文本
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ReportDisclosureItem.FileId">
+            <summary>
+            文件编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ReportSurveyDataRequest.ProjectId">
+            <summary>
+            工程编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ReportSurveyDataRequest.SurveyData">
+            <summary>
+            勘察数据
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ReportSurveyDataRequest.DesignData">
+            <summary>
+            设计数据
+            </summary>
+        </member>
+        <member name="T:Cyg.Applicatio.Survey.Dto.ReportTrackRecord">
+            <summary>
+            工程轨迹
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ReportTrackRecord.Lat_WGS84">
+            <summary>
+            纬度
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ReportTrackRecord.Lon_WGS84">
+            <summary>
+            经度
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ReportTrackRecord.RecordTime">
+            <summary>
+            记录日期
+            </summary>
+        </member>
+        <member name="T:Cyg.Applicatio.Survey.Dto.CableChannelRequest">
+            <summary>
+            电缆通道
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableChannelRequest.Id">
+            <summary>
+            主键编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableChannelRequest.ProjectId">
+            <summary>
+            工程编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableChannelRequest.Start_Id">
+            <summary>
+            始节点
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableChannelRequest.StartNodeType">
+            <summary>
+            始节点类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableChannelRequest.End_Id">
+            <summary>
+            终节点
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableChannelRequest.EndNodeType">
+            <summary>
+            终点节点类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableChannelRequest.C_LayMode">
+            <summary>
+            敷设方式
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableChannelRequest.C_ModeId">
+            <summary>
+            电缆通道类型ID
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableChannelRequest.State">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableChannelRequest.SurveyTime">
+            <summary>
+            设计时间
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableChannelRequest.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableChannelRequest.Length">
+            <summary>
+            线路长度
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableChannelRequest.Surveyor">
+            <summary>
+                上传用户
+            </summary>
+        </member>
+        <member name="T:Cyg.Applicatio.Survey.Dto.CableEquipmentRequest">
+            <summary>
+            电缆杆上设备
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableEquipmentRequest.Id">
+            <summary>
+            主键编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableEquipmentRequest.ProjectId">
+            <summary>
+            工程编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableEquipmentRequest.Name">
+            <summary>
+            设备名称
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableEquipmentRequest.Code">
+            <summary>
+            设备编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableEquipmentRequest.Type">
+            <summary>
+            设备类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableEquipmentRequest.ParentId">
+            <summary>
+            上一节点ID
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableEquipmentRequest.PreNodeType">
+            <summary>
+            上一节点类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableEquipmentRequest.EquipModel">
+            <summary>
+            型号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableEquipmentRequest.Lat_WGS84">
+            <summary>
+            纬度
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableEquipmentRequest.Lon_WGS84">
+            <summary>
+            经度
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableEquipmentRequest.State">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableEquipmentRequest.SurveyTime">
+            <summary>
+            勘测时间
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableEquipmentRequest.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableEquipmentRequest.ElectrifiedWork">
+            <summary>
+             带电作业
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableEquipmentRequest.Surveyor">
+            <summary>
+                上传用户
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableRequest.Id">
+            <summary>
+            主键编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableRequest.ProjectId">
+            <summary>
+            工程编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableRequest.ParentId">
+            <summary>
+            上一节点
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableRequest.PreNodeType">
+            <summary>
+            上一节点类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableRequest.Code">
+            <summary>
+            编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableRequest.Lat_WGS84">
+            <summary>
+            纬度
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableRequest.Lon_WGS84">
+            <summary>
+            经度
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableRequest.C_Type">
+            <summary>
+            电缆井类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableRequest.C_ModeID">
+            <summary>
+            电缆井型号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableRequest.State">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableRequest.SurveyTime">
+            <summary>
+            勘测时间
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableRequest.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableRequest.ElectrifiedWork">
+            <summary>
+             带电作业
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableRequest.Surveyor">
+            <summary>
+                上传用户
+            </summary>
+        </member>
+        <member name="T:Cyg.Applicatio.Survey.Dto.LineRequest">
+            <summary>
+            线路
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineRequest.Id">
+            <summary>
+            主键编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineRequest.ProjectId">
+            <summary>
+            工程编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineRequest.Name">
+            <summary>
+            线路名称
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineRequest.LoopName">
+            <summary>
+            回路名称
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineRequest.Start_ID">
+            <summary>
+            始节点
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineRequest.StartNodeType">
+            <summary>
+            始节点类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineRequest.End_ID">
+            <summary>
+            终节点
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineRequest.EndNodeType">
+            <summary>
+            终点节点类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineRequest.L_Type">
+            <summary>
+            线路类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineRequest.L_Mode">
+            <summary>
+            线路型号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineRequest.L_ModeID">
+            <summary>
+            线路型号Id
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineRequest.Length">
+            <summary>
+            线路长度
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineRequest.KVLevel">
+            <summary>
+            电压等级
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineRequest.IsCable">
+            <summary>
+            是否电缆
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineRequest.LoopSerial">
+            <summary>
+            回路序列号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineRequest.GroupId">
+            <summary>
+            线路组编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineRequest.State">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineRequest.SurveyTime">
+            <summary>
+            勘测时间
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineRequest.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineRequest.Index">
+            <summary>
+            回路标识
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineRequest.Surveyor">
+            <summary>
+                上传用户
+            </summary>
+        </member>
+        <member name="T:Cyg.Applicatio.Survey.Dto.MarkRequest">
+            <summary>
+            地物
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MarkRequest.Id">
+            <summary>
+            主键编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MarkRequest.ProjectId">
+            <summary>
+            工程编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MarkRequest.Name">
+            <summary>
+            地物名称
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MarkRequest.Type">
+            <summary>
+            类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MarkRequest.Width">
+            <summary>
+            宽
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MarkRequest.Height">
+            <summary>
+            高
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MarkRequest.Azimuth">
+            <summary>
+            方位角
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MarkRequest.Lat_WGS84">
+            <summary>
+            纬度
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MarkRequest.Lon_WGS84">
+            <summary>
+            经度
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MarkRequest.RoadLevel">
+            <summary>
+            道路等级
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MarkRequest.LineKvLevel">
+            <summary>
+            电力线电压等级
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MarkRequest.Floors">
+            <summary>
+            楼层数（m）
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MarkRequest.Provider">
+            <summary>
+            运营商
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MarkRequest.State">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MarkRequest.SurveyTime">
+            <summary>
+            勘测时间
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MarkRequest.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="T:Cyg.Applicatio.Survey.Dto.MediaRequest">
+            <summary>
+            多媒体请求
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MediaRequest.Id">
+            <summary>
+            主键
+            </summary>
+            <summary>
+            主键编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MediaRequest.ProjectId">
+            <summary>
+            工程编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MediaRequest.Type">
+            <summary>
+            多媒体类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MediaRequest.Size">
+            <summary>
+            文件大小(字节)
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MediaRequest.FileName">
+            <summary>
+            文件名
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MediaRequest.FilePath">
+            <summary>
+            存储路径
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MediaRequest.Main_ID">
+            <summary>
+            所属设备ID
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MediaRequest.Main_Type">
+            <summary>
+            所属设备类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MediaRequest.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="T:Cyg.Applicatio.Survey.Dto.OverheadEquipmentRequest">
+            <summary>
+            架空杆上设备
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.OverheadEquipmentRequest.Id">
+            <summary>
+            主键编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.OverheadEquipmentRequest.ProjectId">
+            <summary>
+            工程编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.OverheadEquipmentRequest.Name">
+            <summary>
+            设备名称
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.OverheadEquipmentRequest.Type">
+            <summary>
+            类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.OverheadEquipmentRequest.Main_ID">
+            <summary>
+            所属杆塔ID（主杆）
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.OverheadEquipmentRequest.Sub_ID">
+            <summary>
+            所属杆塔ID（副杆）
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.OverheadEquipmentRequest.Capacity">
+            <summary>
+            容量
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.OverheadEquipmentRequest.FixMode">
+            <summary>
+            安装方法
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.OverheadEquipmentRequest.Lat_WGS84">
+            <summary>
+            纬度
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.OverheadEquipmentRequest.Lon_WGS84">
+            <summary>
+            经度
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.OverheadEquipmentRequest.State">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.OverheadEquipmentRequest.SurveyTime">
+            <summary>
+            勘测时间
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.OverheadEquipmentRequest.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.OverheadEquipmentRequest.Surveyor">
+            <summary>
+                上传用户
+            </summary>
+        </member>
+        <member name="T:Cyg.Applicatio.Survey.Dto.TowerRequest">
+            <summary>
+            杆塔+电缆
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.TowerRequest.Id">
+            <summary>
+            主键编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.TowerRequest.ProjectId">
+            <summary>
+            工程编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.TowerRequest.ParentId">
+            <summary>
+            上一节点
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.TowerRequest.PreNodeType">
+            <summary>
+            上一节点类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.TowerRequest.Code">
+            <summary>
+            编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.TowerRequest.T_Type">
+            <summary>
+            杆型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.TowerRequest.Specification">
+            <summary>
+            杆规格(杆高*杆梢径)
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.TowerRequest.T_Segment">
+            <summary>
+            分段方式
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.TowerRequest.T_Sort">
+            <summary>
+            排列方式
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.TowerRequest.KVLevel">
+            <summary>
+            电压等级
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.TowerRequest.Lat_WGS84">
+            <summary>
+            纬度
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.TowerRequest.Lon_WGS84">
+            <summary>
+            经度
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.TowerRequest.State">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.TowerRequest.SurveyTime">
+            <summary>
+            勘测时间
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.TowerRequest.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.TowerRequest.ElectrifiedWork">
+            <summary>
+             带电作业
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.TowerRequest.Surveyor">
+            <summary>
+                上传用户
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.TowerRequest.PoleTypeCode">
+            <summary>
+                杆型编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.BaseResourceRquest.ProjectId">
+            <summary>
+            工程编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ResourceOptionsRequest.ForDesign">
+            <summary>
+            设计类型
+            </summary>
+        </member>
+        <member name="T:Cyg.Applicatio.Survey.Dto.NewsResponse">
+            <summary>
+            新闻资讯响应
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.NewsResponse.Id">
+            <summary>
+            主键Id
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.NewsResponse.Title">
+            <summary>
+            新闻标题
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.NewsResponse.EngineerName">
+             <summary>
+            工程名称
+             </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.NewsResponse.ObjectId">
+            <summary>
+            线路|杆塔id 模板消息时为空
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.NewsResponse.Content">
+            <summary>
+            新闻内容
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.NewsResponse.CreatedOn">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.NewsResponse.PublishTime">
+            <summary>
+            发布时间
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.NewsResponse.Company">
+            <summary>
+            新闻所属公司
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.NewsResponse.UserName">
+            <summary>
+                推送人
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CollectionDataResponse.Towers">
+            <summary>
+            杆塔
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CollectionDataResponse.Cables">
+            <summary>
+            电缆井
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CollectionDataResponse.CableChannels">
+            <summary>
+            电缆通道
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CollectionDataResponse.CableEquipments">
+            <summary>
+            电缆杆上设备
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CollectionDataResponse.OverheadEquipments">
+            <summary>
+            架空杆上设备
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CollectionDataResponse.Lines">
+            <summary>
+            线路
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CollectionDataResponse.Marks">
+            <summary>
+            地物
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CollectionDataResponse.Medias">
+            <summary>
+            多媒体
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CollectionDataResponse.TrackRecords">
+            <summary>
+            轨迹记录集合
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.DesignCollectionDataResponse.Towers">
+            <summary>
+            杆塔
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.DesignCollectionDataResponse.Cables">
+            <summary>
+            电缆井
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.DesignCollectionDataResponse.CableChannels">
+            <summary>
+            电缆通道
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.DesignCollectionDataResponse.CableEquipments">
+            <summary>
+            电缆杆上设备
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.DesignCollectionDataResponse.OverheadEquipments">
+            <summary>
+            架空杆上设备
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.DesignCollectionDataResponse.Lines">
+            <summary>
+            线路
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.DesignCollectionDataResponse.Marks">
+            <summary>
+            地物
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.DisclosureDataResponse.Disclosures">
+            <summary>
+            交底点位数据
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.DisclosureDataResponse.TrackRecords">
+            <summary>
+            轨迹记录集合
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectDetailResponse.Project">
+            <summary>
+            工程基本信息
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectDetailResponse.SurveyData">
+            <summary>
+            勘察数据
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectDetailResponse.DesignData">
+            <summary>
+            设计数据
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectDetailResponse.DisclosureData">
+            <summary>
+            交底数据
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectDisclosureResponse.Id">
+            <summary>
+            交底主键标识
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectDisclosureResponse.ProjectId">
+            <summary>
+            工程编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectDisclosureResponse.ItemId">
+            <summary>
+            杆塔/电缆井/电气设备 编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectDisclosureResponse.ItemType">
+            <summary>
+            交底类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectDisclosureResponse.Status">
+            <summary>
+            交底状态
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectDisclosureResponse.DisclosureDate">
+            <summary>
+            交底日期
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectDisclosureResponse.Items">
+            <summary>
+            交底明细
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectDisclosureItemResponse.Id">
+            <summary>
+            交底明细主键标识
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectDisclosureItemResponse.ProjectId">
+            <summary>
+            工程编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectDisclosureItemResponse.DisclosureId">
+            <summary>
+            交底编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectDisclosureItemResponse.Category">
+            <summary>
+            类别
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectDisclosureItemResponse.Notes">
+            <summary>
+            文本
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectDisclosureItemResponse.FileId">
+            <summary>
+            文件编号
+            </summary>
+        </member>
+        <member name="T:Cyg.Applicatio.Survey.Dto.ProjectResponse">
+            <summary>
+            项目信息表
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectResponse.Id">
+            <summary>
+            工程主键
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectResponse.ProjectName">
+            <summary>
+            工程名称
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectResponse.ProjectCollectionId">
+            <summary>
+            项目主键
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectResponse.ProjectCollectionName">
+            <summary>
+            项目名称
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectResponse.ProjectType">
+            <summary>
+            项目类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectResponse.ProjectCode">
+            <summary>
+            项目编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectResponse.KVLevel">
+            <summary>
+            电压等级
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectResponse.Construction">
+            <summary>
+            建设性质
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectResponse.Stage">
+            <summary>
+            项目阶段
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectResponse.Batch">
+            <summary>
+            批次
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectResponse.BatchYear">
+            <summary>
+            批次年份
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectResponse.PileRange">
+            <summary>
+            桩位范围
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectResponse.DisclosureRange">
+            <summary>
+            交底范围
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectResponse.Province">
+            <summary>
+            省
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectResponse.City">
+            <summary>
+            市
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectResponse.Area">
+            <summary>
+            区/县
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectResponse.Meteorologic">
+            <summary>
+            气象区
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectResponse.CompanyId">
+            <summary>
+            所属公司编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectResponse.CreatedOn">
+            <summary>
+                项目创建日期
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectResponse.FlowState">
+            <summary>
+            流程状态
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectResponse.FlowStateUpdateTime">
+            <summary>
+            流程状态更新时间
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectResponse.IsResetSurvey">
+            <summary>
+            是否处于复勘状态
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectResponse.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectResponse.EngineerCreatedOn">
+            <summary>
+                工程创建日期
+            </summary>
+        </member>
+        <member name="T:Cyg.Applicatio.Survey.Dto.ProjectTrackRecordResponse">
+            <summary>
+            轨迹记录集合
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectTrackRecordResponse.Lat_WGS84">
+            <summary>
+            纬度
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectTrackRecordResponse.Lon_WGS84">
+            <summary>
+            经度
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.ProjectTrackRecordResponse.RecordTime">
+            <summary>
+            记录日期
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableChannelResponse.Id">
+            <summary>
+            主键编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableChannelResponse.ProjectId">
+            <summary>
+            工程编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableChannelResponse.Start_Id">
+            <summary>
+            始节点
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableChannelResponse.StartNodeType">
+            <summary>
+            始节点类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableChannelResponse.End_Id">
+            <summary>
+            终节点
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableChannelResponse.EndNodeType">
+            <summary>
+            终点节点类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableChannelResponse.C_LayMode">
+            <summary>
+            敷设方式
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableChannelResponse.C_ModeId">
+            <summary>
+            电缆通道类型ID
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableChannelResponse.State">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableChannelResponse.Surveyor">
+            <summary>
+            设计人员
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableChannelResponse.SurveyTime">
+            <summary>
+            勘测时间
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableChannelResponse.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableChannelResponse.Length">
+            <summary>
+            长度
+            </summary>
+        </member>
+        <member name="T:Cyg.Applicatio.Survey.Dto.CableEquipmentResponse">
+            <summary>
+            电缆杆上设备
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableEquipmentResponse.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableEquipmentResponse.ProjectId">
+            <summary>
+            工程编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableEquipmentResponse.Name">
+            <summary>
+            设备名称
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableEquipmentResponse.Code">
+            <summary>
+            设备编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableEquipmentResponse.Type">
+            <summary>
+            设备类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableEquipmentResponse.ParentId">
+            <summary>
+            上一节点ID
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableEquipmentResponse.PreNodeType">
+            <summary>
+            上一节点类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableEquipmentResponse.EquipModel">
+            <summary>
+            型号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableEquipmentResponse.Lat_WGS84">
+            <summary>
+            纬度
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableEquipmentResponse.Lon_WGS84">
+            <summary>
+            经度
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableEquipmentResponse.State">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableEquipmentResponse.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableEquipmentResponse.SurveyTime">
+            <summary>
+            勘测时间
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableEquipmentResponse.ElectrifiedWork">
+            <summary>
+             带电作业
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableResponse.Id">
+            <summary>
+            主键编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableResponse.ProjectId">
+            <summary>
+            工程编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableResponse.ParentId">
+            <summary>
+            上一节点
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableResponse.PreNodeType">
+            <summary>
+            上一节点类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableResponse.Code">
+            <summary>
+            编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableResponse.Lat_WGS84">
+            <summary>
+            纬度
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableResponse.Lon_WGS84">
+            <summary>
+            经度
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableResponse.C_Type">
+            <summary>
+            电缆井类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableResponse.C_ModeID">
+            <summary>
+            电缆井型号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableResponse.State">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableResponse.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableResponse.SurveyTime">
+            <summary>
+            勘测时间
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.CableResponse.ElectrifiedWork">
+            <summary>
+             带电作业
+            </summary>
+        </member>
+        <member name="T:Cyg.Applicatio.Survey.Dto.LineResponse">
+            <summary>
+            线路
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineResponse.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineResponse.ProjectId">
+            <summary>
+            工程编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineResponse.Name">
+            <summary>
+            线路名称
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineResponse.LoopName">
+            <summary>
+            回路名称
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineResponse.Start_ID">
+            <summary>
+            始节点
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineResponse.StartNodeType">
+            <summary>
+            始节点类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineResponse.End_ID">
+            <summary>
+            终节点
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineResponse.EndNodeType">
+            <summary>
+            终点节点类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineResponse.L_Type">
+            <summary>
+            线路类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineResponse.L_Mode">
+            <summary>
+            线路型号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineResponse.Length">
+            <summary>
+            线路长度
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineResponse.KVLevel">
+            <summary>
+            电压等级
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineResponse.IsCable">
+            <summary>
+            是否电缆
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineResponse.LoopSerial">
+            <summary>
+            回路序列号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineResponse.GroupId">
+            <summary>
+            线路组编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineResponse.State">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineResponse.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineResponse.SurveyTime">
+            <summary>
+            勘测时间
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineResponse.Index">
+            <summary>
+            回路标识
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.LineResponse.L_ModeID">
+            <summary>
+            线路型号iD
+            </summary>
+        </member>
+        <member name="T:Cyg.Applicatio.Survey.Dto.MarkResponse">
+            <summary>
+            地物
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MarkResponse.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MarkResponse.ProjectId">
+            <summary>
+            工程编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MarkResponse.Name">
+            <summary>
+            地物名称
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MarkResponse.Type">
+            <summary>
+            类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MarkResponse.Width">
+            <summary>
+            宽
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MarkResponse.Height">
+            <summary>
+            高
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MarkResponse.Azimuth">
+            <summary>
+            方位角
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MarkResponse.Lat_WGS84">
+            <summary>
+            纬度
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MarkResponse.Lon_WGS84">
+            <summary>
+            经度
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MarkResponse.RoadLevel">
+            <summary>
+            道路等级
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MarkResponse.LineKvLevel">
+            <summary>
+            电力线电压等级
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MarkResponse.Floors">
+            <summary>
+            楼层数（m）
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MarkResponse.Provider">
+            <summary>
+            运营商
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MarkResponse.State">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MarkResponse.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MarkResponse.SurveyTime">
+            <summary>
+            勘测时间
+            </summary>
+        </member>
+        <member name="T:Cyg.Applicatio.Survey.Dto.MediaResponse">
+            <summary>
+            多媒体
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MediaResponse.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MediaResponse.ProjectId">
+            <summary>
+            工程编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MediaResponse.Type">
+            <summary>
+            多媒体类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MediaResponse.Size">
+            <summary>
+            文件大小
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MediaResponse.FileName">
+            <summary>
+            文件名
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MediaResponse.FilePath">
+            <summary>
+            存储路径
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MediaResponse.Main_ID">
+            <summary>
+            所属设备ID
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MediaResponse.Main_Type">
+            <summary>
+            所属设备类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.MediaResponse.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="T:Cyg.Applicatio.Survey.Dto.OverheadEquipmentResponse">
+            <summary>
+            架空杆上设备
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.OverheadEquipmentResponse.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.OverheadEquipmentResponse.ProjectId">
+            <summary>
+            工程编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.OverheadEquipmentResponse.Name">
+            <summary>
+            设备名称
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.OverheadEquipmentResponse.Type">
+            <summary>
+            类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.OverheadEquipmentResponse.Main_ID">
+            <summary>
+            所属杆塔ID（主杆）
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.OverheadEquipmentResponse.Sub_ID">
+            <summary>
+            所属杆塔ID（副杆）
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.OverheadEquipmentResponse.Capacity">
+            <summary>
+            容量
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.OverheadEquipmentResponse.FixMode">
+            <summary>
+            安装方法
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.OverheadEquipmentResponse.State">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.OverheadEquipmentResponse.Lat_WGS84">
+            <summary>
+            纬度
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.OverheadEquipmentResponse.Lon_WGS84">
+            <summary>
+            经度
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.OverheadEquipmentResponse.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.OverheadEquipmentResponse.SurveyTime">
+            <summary>
+            勘测时间
+            </summary>
+        </member>
+        <member name="T:Cyg.Applicatio.Survey.Dto.TowerResponse">
+            <summary>
+            杆塔
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.TowerResponse.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.TowerResponse.ProjectId">
+            <summary>
+            工程编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.TowerResponse.ParentId">
+            <summary>
+            上一节点
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.TowerResponse.PreNodeType">
+            <summary>
+            上一节点类型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.TowerResponse.Code">
+            <summary>
+            编号
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.TowerResponse.T_Type">
+            <summary>
+            杆型
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.TowerResponse.Specification">
+            <summary>
+            杆规格(杆高*杆梢径)
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.TowerResponse.T_Height">
+            <summary>
+            杆高
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.TowerResponse.T_Rod">
+            <summary>
+            杆梢径
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.TowerResponse.T_Segment">
+            <summary>
+            分段方式
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.TowerResponse.T_Sort">
+            <summary>
+            排列方式
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.TowerResponse.KVLevel">
+            <summary>
+            电压等级
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.TowerResponse.Lat_WGS84">
+            <summary>
+            纬度
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.TowerResponse.Lon_WGS84">
+            <summary>
+            经度
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.TowerResponse.State">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.TowerResponse.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.TowerResponse.SurveyTime">
+            <summary>
+            勘测时间
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.TowerResponse.ElectrifiedWork">
+            <summary>
+             带电作业
+            </summary>
+        </member>
+        <member name="P:Cyg.Applicatio.Survey.Dto.TowerResponse.PoleTypeCode">
+            <summary>
+            杆型
+            </summary>
+        </member>
+    </members>
+</doc>

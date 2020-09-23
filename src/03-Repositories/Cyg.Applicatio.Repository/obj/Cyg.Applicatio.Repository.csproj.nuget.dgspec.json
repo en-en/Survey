@@ -1,0 +1,158 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\03-Repositories\\Cyg.Applicatio.Repository\\Cyg.Applicatio.Repository.csproj": {}
+  },
+  "projects": {
+    "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\03-Repositories\\Cyg.Applicatio.Repository\\Cyg.Applicatio.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\03-Repositories\\Cyg.Applicatio.Repository\\Cyg.Applicatio.Repository.csproj",
+        "projectName": "Cyg.Applicatio.Repository",
+        "projectPath": "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\03-Repositories\\Cyg.Applicatio.Repository\\Cyg.Applicatio.Repository.csproj",
+        "packagesPath": "C:\\Users\\Shinelon\\.nuget\\packages\\",
+        "outputPath": "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\03-Repositories\\Cyg.Applicatio.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Shinelon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://10.6.1.36:8011/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\04-Models\\Cyg.Applicatio.Survey.Dto\\Cyg.Applicatio.Survey.Dto.csproj": {
+                "projectPath": "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\04-Models\\Cyg.Applicatio.Survey.Dto\\Cyg.Applicatio.Survey.Dto.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Cyg": {
+              "target": "Package",
+              "version": "[1.0.117, )"
+            },
+            "Cyg.Applicatio.Entity": {
+              "target": "Package",
+              "version": "[1.0.226, )"
+            },
+            "Cyg.Extensions": {
+              "target": "Package",
+              "version": "[1.0.47, )"
+            },
+            "Cyg.Extensions.Cap": {
+              "target": "Package",
+              "version": "[1.0.13, )"
+            },
+            "Cyg.Extensions.Service": {
+              "target": "Package",
+              "version": "[1.0.101, )"
+            },
+            "Microsoft.AspNetCore.WebSockets": {
+              "target": "Package",
+              "version": "[2.2.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\04-Models\\Cyg.Applicatio.Survey.Dto\\Cyg.Applicatio.Survey.Dto.csproj": {
+      "version": "1.0.12",
+      "restore": {
+        "projectUniqueName": "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\04-Models\\Cyg.Applicatio.Survey.Dto\\Cyg.Applicatio.Survey.Dto.csproj",
+        "projectName": "Cyg.Applicatio.Survey.Dto",
+        "projectPath": "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\04-Models\\Cyg.Applicatio.Survey.Dto\\Cyg.Applicatio.Survey.Dto.csproj",
+        "packagesPath": "C:\\Users\\Shinelon\\.nuget\\packages\\",
+        "outputPath": "C:\\changYuanShenRui\\project\\Cyg.Survey.Solution_Copy\\Survey\\src\\04-Models\\Cyg.Applicatio.Survey.Dto\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Shinelon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://10.6.1.36:8011/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Cyg": {
+              "target": "Package",
+              "version": "[1.0.117, )"
+            },
+            "Cyg.Applicatio.Dto": {
+              "target": "Package",
+              "version": "[1.0.151, )"
+            },
+            "Cyg.Resource": {
+              "target": "Package",
+              "version": "[1.0.54, )"
+            },
+            "Cyg.Resource.Dto": {
+              "target": "Package",
+              "version": "[1.0.70, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

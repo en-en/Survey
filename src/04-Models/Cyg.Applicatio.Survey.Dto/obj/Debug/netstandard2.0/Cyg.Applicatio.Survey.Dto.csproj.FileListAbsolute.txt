@@ -1,0 +1,10 @@
+C:\changYuanShenRui\project\Cyg.Survey.Solution\src\04-Models\Cyg.Applicatio.Survey.Dto\bin\Debug\netstandard2.0\Cyg.Applicatio.Survey.Dto.deps.json
+C:\changYuanShenRui\project\Cyg.Survey.Solution\src\04-Models\Cyg.Applicatio.Survey.Dto\bin\Debug\netstandard2.0\Cyg.Applicatio.Survey.Dto.dll
+C:\changYuanShenRui\project\Cyg.Survey.Solution\src\04-Models\Cyg.Applicatio.Survey.Dto\bin\Debug\netstandard2.0\Cyg.Applicatio.Survey.Dto.pdb
+C:\changYuanShenRui\project\Cyg.Survey.Solution\src\04-Models\Cyg.Applicatio.Survey.Dto\bin\Debug\netstandard2.0\Cyg.Applicatio.Survey.Dto.xml
+C:\changYuanShenRui\project\Cyg.Survey.Solution\src\04-Models\Cyg.Applicatio.Survey.Dto\obj\Debug\netstandard2.0\Cyg.Applicatio.Survey.Dto.csprojAssemblyReference.cache
+C:\changYuanShenRui\project\Cyg.Survey.Solution\src\04-Models\Cyg.Applicatio.Survey.Dto\obj\Debug\netstandard2.0\Cyg.Applicatio.Survey.Dto.csproj.CoreCompileInputs.cache
+C:\changYuanShenRui\project\Cyg.Survey.Solution\src\04-Models\Cyg.Applicatio.Survey.Dto\obj\Debug\netstandard2.0\Cyg.Applicatio.Survey.Dto.AssemblyInfoInputs.cache
+C:\changYuanShenRui\project\Cyg.Survey.Solution\src\04-Models\Cyg.Applicatio.Survey.Dto\obj\Debug\netstandard2.0\Cyg.Applicatio.Survey.Dto.AssemblyInfo.cs
+C:\changYuanShenRui\project\Cyg.Survey.Solution\src\04-Models\Cyg.Applicatio.Survey.Dto\obj\Debug\netstandard2.0\Cyg.Applicatio.Survey.Dto.dll
+C:\changYuanShenRui\project\Cyg.Survey.Solution\src\04-Models\Cyg.Applicatio.Survey.Dto\obj\Debug\netstandard2.0\Cyg.Applicatio.Survey.Dto.pdb

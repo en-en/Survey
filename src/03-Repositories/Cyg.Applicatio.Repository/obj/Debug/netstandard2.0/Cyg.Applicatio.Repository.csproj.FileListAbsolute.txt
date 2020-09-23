@@ -11,3 +11,16 @@ C:\changYuanShenRui\project\Cyg.Survey.Solution\src\03-Repositories\Cyg.Applicat
 C:\changYuanShenRui\project\Cyg.Survey.Solution\src\03-Repositories\Cyg.Applicatio.Repository\obj\Debug\netstandard2.0\Cyg.Applicatio.Repository.csproj.CopyComplete
 C:\changYuanShenRui\project\Cyg.Survey.Solution\src\03-Repositories\Cyg.Applicatio.Repository\obj\Debug\netstandard2.0\Cyg.Applicatio.Repository.dll
 C:\changYuanShenRui\project\Cyg.Survey.Solution\src\03-Repositories\Cyg.Applicatio.Repository\obj\Debug\netstandard2.0\Cyg.Applicatio.Repository.pdb
+C:\changYuanShenRui\project\Cyg.Survey.Solution_Copy\Survey\src\03-Repositories\Cyg.Applicatio.Repository\bin\Debug\netstandard2.0\Cyg.Applicatio.Repository.deps.json
+C:\changYuanShenRui\project\Cyg.Survey.Solution_Copy\Survey\src\03-Repositories\Cyg.Applicatio.Repository\bin\Debug\netstandard2.0\Cyg.Applicatio.Repository.dll
+C:\changYuanShenRui\project\Cyg.Survey.Solution_Copy\Survey\src\03-Repositories\Cyg.Applicatio.Repository\bin\Debug\netstandard2.0\Cyg.Applicatio.Repository.pdb
+C:\changYuanShenRui\project\Cyg.Survey.Solution_Copy\Survey\src\03-Repositories\Cyg.Applicatio.Repository\bin\Debug\netstandard2.0\Cyg.Applicatio.Survey.Dto.dll
+C:\changYuanShenRui\project\Cyg.Survey.Solution_Copy\Survey\src\03-Repositories\Cyg.Applicatio.Repository\bin\Debug\netstandard2.0\Cyg.Applicatio.Survey.Dto.pdb
+C:\changYuanShenRui\project\Cyg.Survey.Solution_Copy\Survey\src\03-Repositories\Cyg.Applicatio.Repository\bin\Debug\netstandard2.0\Cyg.Applicatio.Survey.Dto.xml
+C:\changYuanShenRui\project\Cyg.Survey.Solution_Copy\Survey\src\03-Repositories\Cyg.Applicatio.Repository\obj\Debug\netstandard2.0\Cyg.Applicatio.Repository.csprojAssemblyReference.cache
+C:\changYuanShenRui\project\Cyg.Survey.Solution_Copy\Survey\src\03-Repositories\Cyg.Applicatio.Repository\obj\Debug\netstandard2.0\Cyg.Applicatio.Repository.csproj.CoreCompileInputs.cache
+C:\changYuanShenRui\project\Cyg.Survey.Solution_Copy\Survey\src\03-Repositories\Cyg.Applicatio.Repository\obj\Debug\netstandard2.0\Cyg.Applicatio.Repository.AssemblyInfoInputs.cache
+C:\changYuanShenRui\project\Cyg.Survey.Solution_Copy\Survey\src\03-Repositories\Cyg.Applicatio.Repository\obj\Debug\netstandard2.0\Cyg.Applicatio.Repository.AssemblyInfo.cs
+C:\changYuanShenRui\project\Cyg.Survey.Solution_Copy\Survey\src\03-Repositories\Cyg.Applicatio.Repository\obj\Debug\netstandard2.0\Cyg.Applicatio.Repository.csproj.CopyComplete
+C:\changYuanShenRui\project\Cyg.Survey.Solution_Copy\Survey\src\03-Repositories\Cyg.Applicatio.Repository\obj\Debug\netstandard2.0\Cyg.Applicatio.Repository.dll
+C:\changYuanShenRui\project\Cyg.Survey.Solution_Copy\Survey\src\03-Repositories\Cyg.Applicatio.Repository\obj\Debug\netstandard2.0\Cyg.Applicatio.Repository.pdb

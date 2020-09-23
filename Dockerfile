@@ -5,7 +5,7 @@ EXPOSE 443
 
 FROM microsoft/dotnet:2.2-sdk AS build
 WORKDIR /src
-COPY ["Cyg.Application.Api/Cyg.Application.Api.csproj", "Cyg.Application.Api/"]
+COPY ["src/01-Presentation/Cyg.Application.Api/Cyg.Application.Api.csproj", "Cyg.Application.Api/"]
 RUN dotnet restore "Cyg.Application.Api/Cyg.Application.Api.csproj"
 COPY . .
 WORKDIR "/src/Cyg.Application.Api"
